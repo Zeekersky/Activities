@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add IDs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="navbar-link">Home</a>
+        <a href="/add_ids" class="navbar-link">Add IDs</a>
+    </nav>
+    <div class="container">
+        <div class="add-form">
+            <h2>Add New ID</h2>
+            <form action="/add_ids" method="post" enctype="multipart/form-data">
+                <label for="id">ID Number:</label>
+                <input type="number" id="id" name="id" class="form-input" required><br>
+                <label for="photo">Photo:</label>
+                <input type="file" id="photo" name="photo" accept="image/*" class="form-input" required><br>
+                <input type="submit" value="Submit" class="form-button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
