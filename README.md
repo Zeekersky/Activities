@@ -10,7 +10,7 @@ The assignment solutions are organized in the **master branch** and include:
 - Solutions to DSA assignments with a focus on foundational algorithms, data structures, and problem-solving techniques.
 
 ### 2. Computer Vision
-- Assignments covering key concepts in computer vision, including image processing, feature extraction, and object detection.
+- Assignments covering key concepts in computer vision, including image processing, feature extraction, and neural networks.
 
 ### 3. Computer Science Practicum
 - Practical assignments focusing on the application of theoretical computer science concepts to real-world problems.
