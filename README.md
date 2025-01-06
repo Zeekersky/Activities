@@ -1,4 +1,4 @@
-# Repository: IIT Mandi Assignments
+# Activities: IIT Mandi Assignments
 
 This repository contains assignment solutions for various courses conducted at IIT Mandi. The content spans across different topics, including Data Structures and Algorithms (DSA), Computer Vision, and the Computer Science Practicum course.
 
